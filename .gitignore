@@ -1,51 +1,38 @@
-# Ignore all files by default, but scan all directories.
-*
-!*/
-
-# Do not ignore git files in the root of the repo.
-!/.git*
-
-# Do not ignore current project's `.uproject`.
-!/*.uproject
-
-# Do not ignore source, config and plugins dirs.
-!/Source/**
-!/Config/**
-!/Plugins/**
-
-# Only allow .uasset and .umap files from /Content dir.
-# They're tracked by git-lfs, don't forget to track other
-# files if adding them here.
-!/Content/**/*.uasset
-!/Content/**/*.umap
-
-# Allow any files from /RawContent dir.
-# Any file in /RawContent dir will be managed by git lfs.
-!/RawContent/**/*
-
-# OS/platform generated files.
-
-# Windows
-ehthumbs.db
-Thumbs.db
-
-# Mac OS X
-.DS_Store
-.DS_Store?
-.AppleDouble
-.LSOverride
-._*
-
-# Linux
-*~
-.directory
-
-# vim
-[._]*.s[a-w][a-z]
-[._]s[a-w][a-z]
-*.un~
-Session.vim
-.netrwhist
-
-# Visual Studio
-.vs
+/Binaries
+/Intermediate
+/Saved
+/_renom
+/.vs
+/*.csv
+/*.lvx
+/**/*.csv
+/**/*.lvx
+/Csv Saved
+/Lvx Saved
+/Plugins/LivoxSDK2/Intermediate
+/Plugins/LivoxSDK2/Binaries
+/Plugins/Ltrace/Intermediate
+/Plugins/Ltrace/Binaries
+/Plugins/pcls/Intermediate
+/Plugins/pcls/Binaries
+/NewLivoxViewer.sln
+*.log
+/Plugins/EasyFileDialog/Intermediate
+/Plugins/EasyFileDialog/Binaries
+/Plugins/RuntimeTransformer/Intermediate
+/Plugins/RuntimeTransformer/Binaries
+/Plugins/EasyNotification/Intermediate
+/Plugins/EasyNotification/Binaries
+/**/Binaries
+/**/Intermediate
+/.idea
+/DerivedDataCache
+/.gitignore
+/**/*.bak
+*.user
+config.json
+/.vscode
+LivoxViewer2.code-workspace
+*.code-workspace
+/*.sln
+/**/__pycache__
