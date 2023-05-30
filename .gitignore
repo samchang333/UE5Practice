@@ -36,3 +36,5 @@ LivoxViewer2.code-workspace
 *.code-workspace
 /*.sln
 /**/__pycache__
+.tgitconfig
+.vsconfig
