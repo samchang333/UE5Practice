@@ -5,12 +5,18 @@
 	"Description": "",
 	"Modules": [
 		{
-			"Name": "UE5Practice",
+			"Name": "PracticeGame",
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
-				"Engine"
+				"Engine",
+				"ModelViewViewModel"
 			]
+		},
+		{
+			"Name": "PracticeEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
 		}
 	],
 	"Plugins": [
@@ -284,5 +290,9 @@
 			"Name": "FunctionalTestingEditor",
 			"Enabled": true
 		},
+		{
+			"Name": "ModelViewViewModel",
+			"Enabled": true
+		}
 	]
 }
