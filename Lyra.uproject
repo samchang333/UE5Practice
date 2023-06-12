@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.2",
+	"EngineAssociation": "{DB94D432-41F6-9429-79C4-539E4143EF44}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -328,6 +328,10 @@
 		},
 		{
 			"Name": "GameplayBehaviors",
+			"Enabled": true
+		},
+		{
+			"Name": "ModelViewViewModel",
 			"Enabled": true
 		}
 	]
